@@ -166,28 +166,50 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "AI Tools Expertise",
+    company_name: "Personal Development",
+    icon: github,
+    iconBg: "#383E56",
+    date: "Jan 2023 - present",
+    points: [
+      "Leveraging AI tools like GitHub Copilot and ChatGPT to enhance development workflows",
+      "Generating responsive layout templates and solving layout bugs with AI assistance",
+      "Improving UI/UX quality through AI-powered design suggestions",
+      "Implementing real-time accessibility and performance optimizations using AI",
+      "Building web applications faster and more efficiently with AI integration",
+    ],
+  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "Ian's work is exceptional. He has a keen eye for detail and always delivers projects ahead of schedule.",
+    name: "Carlos",
+    designation: "Project Manager",
+    company: "Tech Solutions",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Working with Ian was a pleasure. His technical expertise and creative solutions exceeded our expectations.",
+    name: "Joel",
+    designation: "Business Owner",
+    company: "Digital Marketing",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Ian's innovative approach to web development has transformed our online presence. Highly recommended!",
+    name: "Ephraim",
+    designation: "CEO",
+    company: "Creative Agency",
+    image: thirdTestimonial,
+  },
+  {
+    testimonial:
+      "After Ian optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -197,9 +219,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
-    description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+    name: "Clutch Events Platform",
+    description: "A modern web application for exploring, registering, and managing tech-related events hosted by Clutch.",
     tags: [
       {
         name: "react",
@@ -210,63 +231,16 @@ const projects = [
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "javascript",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
-    ],
-    image: project2,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GearXpert",
-    description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "AI Tools",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: "/projects/Screenshot from 2025-05-21 20-19-06.png", // Project image in public/projects directory
+    source_code_link: "https://github.com/", // Add your GitHub repository URL here
   },
 ];
 
